@@ -1,0 +1,19 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "description": "Weather Forecast with openweathermap.org",
+  "main": "index.js",
+  "repository": "https://github.com/mastersanto/weather-forecast.git",
+  "author": "Jorge Sandoval <jorgeivansandoval@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev:server": "node server",
+    "dev:client": "node client"
+  },
+  "workspaces": [
+    "client",
+    "components",
+    "server"
+  ]
+}
