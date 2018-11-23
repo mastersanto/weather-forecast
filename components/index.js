@@ -1,3 +1,3 @@
 const components = 'Components';
 
-module.exports = components;
+export default components;
